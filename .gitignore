@@ -1,0 +1,7 @@
+# Ignore everything in this directory
+*
+# Except this file
+!.gitignore
+!js/Hubun
+!app/code/community/Hubun
+!app/etc/modules/Hubun_XmppSupport.xml

@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Hubun_XmppSupport>
+            <version>0.0.1</version>
+        </Hubun_XmppSupport>
+    </modules>
+    <global>
+        <models>
+            <hubun_xmppsupport>
+                <class>Hubun_XmppSupport_Model</class>
+                <resourceModel>hubun_xmppsupport_resource</resourceModel>
+            </hubun_xmppsupport>
+            <hubun_xmppsupport_resource>
+                <class>Hubun_XmppSupport_Model_Resource</class>
+            </hubun_xmppsupport_resource>
+        </models>
+        <blocks>
+            <hubun_xmppsupport>
+                <class>Hubun_XmppSupport_Block</class>
+            </hubun_xmppsupport>
+        </blocks>
+        <helpers>
+            <hubun_xmppsupport>
+                <class>Hubun_XmppSupport_Helper</class>
+            </hubun_xmppsupport>
+        </helpers>
+        <resources>
+            <hubun_xmppsupport_setup>
+                <setup>
+                    <module>Hubun_XmppSupport</module>
+                </setup>
+            </hubun_xmppsupport_setup>
+        </resources>
+    </global>
+</config>
